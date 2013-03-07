@@ -7,6 +7,17 @@ by Jason Costello, @jsncostello
 @import url(http://fonts.googleapis.com/css?family=Rock+Salt);
 
 /*******************************************************************************
+Color Pallette
+white(ish): #F2F2F2;
+slate blue: #4F5E8C;
+blue: #304173;
+maroon: #59151A;
+red: #8C1C25;
+yellow: #F2DA5E;
+*******************************************************************************/
+
+
+/*******************************************************************************
 MeyerWeb Reset
 *******************************************************************************/
 
@@ -78,6 +89,7 @@ h1 {
   font-size: 36px;
   font-weight: 700;
   font-family: 'Rock Salt', cursive;
+  color: #8C1C25;
 }
 
 h2 {
@@ -108,6 +120,7 @@ p {
 
 footer p {
   color: #f2f2f2;
+  font-size: 0.9em;
 }
 
 a {
@@ -130,6 +143,11 @@ a {
 #main_content a:hover {
   color: #0069ba;
   text-shadow: #0090ff 0px 0px 2px;
+}
+
+.brand {
+    font-family: 'Rock Salt', cursive;
+    font-size: 0.9em;
 }
 
 footer a:hover {
@@ -163,7 +181,7 @@ img {
 pre, code {
   width: 100%;
   color: #222;
-  background-color: #fff;
+  background-color: #f2f2f2;
 
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   font-size: 14px;
@@ -246,7 +264,7 @@ th {
   font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   padding: 10px;
   background: #373737;
-  color: #fff;
+  color: #f2f2f2;
  }
 
 td {
@@ -285,9 +303,9 @@ Full-Width Styles
   top:0;
   right: 10px;
   z-index: 10;
-  padding: 10px 50px 10px 10px;
-  color: #fff;
-  background: url('../images/blacktocat.png') #0090ff no-repeat 95% 50%;
+  padding: 10px;
+  color: #f2f2f2;
+  background: #304173;
   font-weight: 700;
   box-shadow: 0 0 10px rgba(0,0,0,.5);
   border-bottom-left-radius: 2px;
@@ -295,12 +313,12 @@ Full-Width Styles
 }
 
 #header_wrap {
-  background: #212121;
-  background: -moz-linear-gradient(top, #373737, #212121);
-  background: -webkit-linear-gradient(top, #373737, #212121);
-  background: -ms-linear-gradient(top, #373737, #212121);
-  background: -o-linear-gradient(top, #373737, #212121);
-  background: linear-gradient(top, #373737, #212121);
+  background: #59151A;
+  background: -moz-linear-gradient(top, #373737, #59151A);
+  background: -webkit-linear-gradient(top, #373737, #59151A);
+  background: -ms-linear-gradient(top, #373737, #59151A);
+  background: -o-linear-gradient(top, #373737, #59151A);
+  background: linear-gradient(top, #373737, #59151A);
 }
 
 #header_wrap .inner {
@@ -309,14 +327,14 @@ Full-Width Styles
 
 #project_title {
   margin: 0;
-  color: #fff;
+  color: #F2DA5E;
   font-size: 42px;
   font-weight: 700;
-  text-shadow: #111 0px 0px 10px;
+  text-shadow: #373737 0px 0px 10px;
 }
 
 #project_tagline {
-  color: #fff;
+  color: #f2f2f2;
   font-size: 24px;
   font-weight: 300;
   background: none;
